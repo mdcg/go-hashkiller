@@ -9,7 +9,7 @@ import (
 	"github.com/briandowns/spinner"
 )
 
-var s = spinner.New(spinner.CharSets[14], 100*time.Millisecond)
+var s = spinner.New(spinner.CharSets[25], 100*time.Millisecond)
 
 func StartDecryption(wordlist_path, informed_hash string, encryption_func func(*string) string) string {
 	start := time.Now()
