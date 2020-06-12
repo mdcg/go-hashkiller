@@ -24,3 +24,13 @@ func EncryptToSha256(value *string) string {
 	h.Write([]byte(*value))
 	return fmt.Sprintf("%x", h.Sum(nil))
 }
+
+func ChooseEncryptionType(value string) func(*string) string {
+	availableEncryptionsTypes := map[string]func(*string) string{
+		"md5":    EncryptToMd5,
+		"sha1":   EncryptToSha1,
+		"sha256": EncryptToSha256,
+	}
+
+	return availableEncryptionsTypes[value]
+}
