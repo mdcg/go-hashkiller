@@ -11,9 +11,9 @@ Inspired by "[John The Ripper](https://tools.kali.org/password-attacks/john)", t
 ```
 
 Where
-    - In "hash" you will need to enter the hash you want to break;
-    - In "type", it will be the encryption type (currently we have MD5, SHA1 and SHA256);
-    - In "wordlist" you need to inform the path from your directory to the wordlist you will use (you can easily generate one with "[Crunch](https://tools.kali.org/password-attacks/crunch)").
+- In "hash" you will need to enter the hash you want to break;
+- In "type", it will be the encryption type (currently we have MD5, SHA1 and SHA256);
+- In "wordlist" you need to inform the path from your directory to the wordlist you will use (you can easily generate one with "[Crunch](https://tools.kali.org/password-attacks/crunch)").
 
 
 ### Contributing
