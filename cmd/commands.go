@@ -7,7 +7,7 @@ import (
 
 func Greetings() {
 	fmt.Println("Welcome to the mdcg_'s Hashkiller!")
-	fmt.Println("To find out how to use it, type \"-h\" or \"--help\"")
+	fmt.Print("To find out how to use it, type \"-h\" or \"--help\"\n\n")
 }
 
 func AvailableCommands() (*string, *string, *string) {
