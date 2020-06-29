@@ -19,3 +19,5 @@ Where
 ### Contributing
 
 Feel free to do whatever you want with this project. :-)
+
+*This program was developed for study purposes only. The author is not responsible for the illicit or indiscriminate use of this software.*
